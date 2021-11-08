@@ -1,10 +1,12 @@
 package ru.netology.domain;
 
 public class PostsVk {
-    private int id; // идентификатора записи
-    private int ownerId; //Идентификатор владельца стены, на которой размещена запись.
-    private int fromId; //Идентификатор автора записи
-    private int createdBy; //Идентификатор администратора, который опубликовал запись
+    private int id;
+    private String iconOwnerId; // аватарка (картинка) владельца страницы
+    private int ownerId;
+    private int fromId;
+    private String iconFromId; // аватарка (картинка) владельца автора записи
+    private int createdBy;
     private int data;
     private String text;
     private int replyOwnerId;
