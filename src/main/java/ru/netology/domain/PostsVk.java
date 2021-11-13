@@ -12,7 +12,13 @@ public class PostsVk {
     private int replyOwnerId;
     private int replyPostId;
     private int friendsOnly;
+    private CommentsInfo commentsInfo;
+    private Copyright copyright;
+    private LikesInfo likesInfo;
+    private RepostsInfo repostsInfo;
+    private Views views;
     private int postType;
+    private Geo geo;
     private int signerId;
     private int canPin;
     private int canDelete;
@@ -21,6 +27,7 @@ public class PostsVk {
     private int isPinned;
     private int markedAsAds;
     private boolean isFavorite;
+    private Donut donut;
     private int postponedId;
 
 }
